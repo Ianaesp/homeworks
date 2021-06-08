@@ -1,0 +1,11 @@
+header {
+    width: 100%;
+    margin: 0;
+    background-image: linear-gradient(to bottom, #fffdf300, #ffffffff), url(https://miro.medium.com/max/3840/1*ivjksIhvAs7TUXbQCxAU0A.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}

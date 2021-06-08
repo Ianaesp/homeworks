@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>опросник про питомца</title>
+</head>
+<body>
+    <h1>ВСЕ О ПИТОМЦЕ</h1>
+    <form action="script.php" method="POST">
+    <div>
+    <label for="name"> КЛИЧКА</label>
+    <input type="text" id="name"/>
+    </div>
+    <div>
+    <label for="FIO">ИМЯ ХОЗЯИНА</label>
+    <input type="text" id="FIO"/></div>
+    <div>
+    <label for="phon">ТЕЛЕФОН ХОЗЯИНА</label>   
+    <input type="text" id="phon"/></div>
+    <dIv>
+        <label for="name">ПОРОДА</label>  
+    <select>
+        <option value="1">боксер</option>
+        <option value="2">бульдог</option>
+        <option value="3">дворняшка</option>
+    </select> 
+    <dIv>
+    <label for="food">Чем питается</label></div>
+    <div>
+    <input type="checkbox" id="food">сухой корм</div>
+<div>
+    <input type="checkbox">влажный корм</div>
+    <div>
+        <input type="checkbox"> естественный корм</div> 
+    <div>
+    <label>ЕГО ПОЛ</label><br />
+    женский<input value="f" type="radio" name="sex"/> <br />мужской<input value="f" type="radio" name="sex"/>
+    </div>
+<div>
+        <label for="name">Коментарии владельца</label></div>
+        <textarea ></textarea>
+</div>
+<div><img src="../assets/images/lablador1.jpg" alt="фото питомца"></div>
+<div><button>СОХРАНИТЬ</button>
+</div>
+    </form>
+</body>
+</html>
